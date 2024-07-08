@@ -1,0 +1,12 @@
+.oneCountry {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: var(--espace);
+  margin-top: 1rem;
+
+  span {
+    font-size: 5rem;
+  }
+}

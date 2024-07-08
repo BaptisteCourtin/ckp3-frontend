@@ -1,0 +1,23 @@
+mutation AddCountry($data: NewCountryInput!) {
+  addCountry(data: $data) {
+    id
+    code
+    name
+    emoji
+    continent {
+      id
+      name
+    }
+  }
+}
+
+# {
+#   "data": {
+#     "code": "AG",
+#     "name": "test",
+#     "emoji": "⛳",
+#     "continent": {
+#       "id": 1
+#     }
+#   }
+# }

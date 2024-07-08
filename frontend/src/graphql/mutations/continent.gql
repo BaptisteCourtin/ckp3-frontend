@@ -1,0 +1,12 @@
+mutation AddContinent($data: NewContinentInput!) {
+  addContinent(data: $data) {
+    id
+    name
+  }
+}
+
+# {
+#   "data": {
+#     "name": "testC"
+#   }
+# }

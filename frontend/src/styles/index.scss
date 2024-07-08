@@ -1,0 +1,14 @@
+@import "./reset.scss";
+@import "./variables.scss";
+@import "./form.scss";
+
+// components
+@import "../components/layout/navbar.scss";
+@import "../components/country/cardCountry.scss";
+@import "../components/continent/cardContinent.scss";
+
+// pages
+@import "../pages/pageIndex.scss";
+@import "../pages/country/oneContry.scss";
+
+@import "../pages/continent/allContinents.scss";

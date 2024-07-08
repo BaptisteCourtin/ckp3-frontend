@@ -7,7 +7,6 @@ import {
 } from "typeorm";
 import { ObjectType, Field, Int, InputType } from "type-graphql";
 import { Continent } from "./Continent";
-import { ObjectId } from "../utils";
 import { MaxLength, MinLength } from "class-validator";
 
 @ObjectType()
@@ -53,6 +52,6 @@ export class NewCountryInput {
   @MaxLength(4)
   emoji: string;
 
-  @Field(() => ObjectId, { nullable: true })
-  continent?: ObjectId;
+  @Field({ nullable: true })
+  continent?: number;
 }

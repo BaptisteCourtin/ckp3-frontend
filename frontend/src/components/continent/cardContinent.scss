@@ -1,0 +1,10 @@
+.cardContinent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px var(--black) solid;
+  border-radius: var(--radius);
+
+  width: 10rem;
+}

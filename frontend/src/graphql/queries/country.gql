@@ -1,0 +1,29 @@
+query Countries {
+  countries {
+    id
+    code
+    name
+    emoji
+    continent {
+      id
+      name
+    }
+  }
+}
+
+query Country($code: String!) {
+  country(code: $code) {
+    id
+    code
+    name
+    emoji
+    continent {
+      id
+      name
+    }
+  }
+}
+
+# {
+#   "code": "AG"
+# }

@@ -4,7 +4,8 @@ WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm i
+# RUN npm i
+RUN yarn
 
 COPY src ./src
 COPY public ./public

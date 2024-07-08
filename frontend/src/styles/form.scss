@@ -1,0 +1,31 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--espace);
+
+  max-width: 700px;
+  padding: var(--espace);
+
+  .champ {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .mui-input {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+
+      label {
+        font-style: italic;
+        padding: 0 var(--espace) 0 0;
+      }
+    }
+  }
+
+  .MuiFormControl-root {
+    margin: 0;
+  }
+}

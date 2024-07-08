@@ -9,24 +9,34 @@
     "lint": "next lint",
     "codegen": "graphql-codegen --config codegen.yml --watch"
   },
-  "dependencies": {
-    "@apollo/client": "^3.10.2",
-    "next": "13.4.19",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
   "devDependencies": {
-    "eslint": "8.49.0",
-    "eslint-config-next": "13.4.19",
-    "typescript": "5.2.2",
-    "@types/react": "18.2.22",
-    "@types/react-dom": "18.2.7",
     "@graphql-codegen/cli": "3.2.2",
+    "@graphql-codegen/client-preset": "^4.3.2",
     "@graphql-codegen/introspection": "3.0.1",
     "@graphql-codegen/typescript": "3.0.2",
     "@graphql-codegen/typescript-operations": "3.0.2",
     "@graphql-codegen/typescript-react-apollo": "3.3.7",
+    "@types/react": "18.2.22",
+    "@types/react-dom": "18.2.7",
     "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.31"
+    "eslint": "8.49.0",
+    "eslint-config-next": "13.4.19",
+    "postcss": "^8.4.31",
+    "typescript": "5.2.2"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.10.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@hookform/resolvers": "^3.9.0",
+    "@mui/material": "^5.16.0",
+    "graphql": "^16.9.0",
+    "next": "13.4.19",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.52.1",
+    "react-hot-toast": "^2.4.1",
+    "sass": "^1.77.6",
+    "yup": "^1.4.0"
   }
 }
